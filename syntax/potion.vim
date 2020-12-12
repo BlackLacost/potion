@@ -6,6 +6,9 @@ syntax keyword potionKeyword loop to times while
 syntax keyword potionKeyword if elsif else
 syntax keyword potionKeyword class return
 
+syntax keyword potionFunction print join string
+
 highlight link potionKeyword Keyword
+highlight link potionFunction Function
 
 let b:current_syntax = "potion"
