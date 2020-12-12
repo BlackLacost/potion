@@ -1,2 +1,2 @@
-" group не нужен, так как vim автоматически это делает для plugin
+" Vim автоматически обернет контент в файлах ftdetect/*.vim команой augroup
 autocmd BufNewFile,BufRead *.pn set filetype=potion
